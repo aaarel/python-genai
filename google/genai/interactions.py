@@ -30,6 +30,7 @@ from ._gaos.types.environments import *  # noqa: F401,F403
 from ._gaos.types.environments import __all__ as _environments_all
 from ._gaos.types.interactions import *  # noqa: F401,F403
 from ._gaos.types.interactions import __all__ as _interactions_all
+from ._gaos.types.interactions.interaction import Interaction as Interaction  # noqa: F401
 from ._gaos.models.listagents import ListAgentsRequestParam as AgentListParams
 from ._gaos.models.listwebhooks import ListWebhooksRequestParam as WebhookListParams
 from ._gaos.resources.interactions import *  # noqa: F401,F403
